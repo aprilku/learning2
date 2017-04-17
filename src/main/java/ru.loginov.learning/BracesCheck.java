@@ -6,7 +6,7 @@ public class BracesCheck {
 	final static char CLOSE = ')';
 
 	public static void main(String[] args) {
-		String line = "(f)(";
+		String line = "(f)()123)";
 		System.out.println(check(line));
 	}
 

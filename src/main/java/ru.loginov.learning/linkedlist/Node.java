@@ -6,6 +6,7 @@ public class Node {
     Node prev;
 
     public Node(int value) {
+
         this.value = value;
     }
     //Конструктор инициализирует финальное поле value
